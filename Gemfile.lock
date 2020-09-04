@@ -1,3 +1,9 @@
+PATH
+  remote: crates/image_stamper
+  specs:
+    image_stamper (1.0.0)
+      helix_runtime (~> 0.7.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -209,6 +215,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   helix-rails (~> 0.5.0)
+  image_stamper!
   jbuilder (~> 2.7)
   listen (~> 3.2)
   puma (~> 4.1)
