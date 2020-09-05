@@ -16,7 +16,7 @@ use rusttype::{FontCollection, Scale};
 ruby! {
     class ImageStamper {
         def stamp(message: String, outfile: String) {
-          let public_path = &[String::from("../../public"), outfile].join("/");
+          let public_path = &[String::from("public"), outfile].join("/");
           let out_path = Path::new(&public_path);
 
           let mut image = RgbImage::new(200, 200);
